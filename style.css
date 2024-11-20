@@ -1,0 +1,90 @@
+/* General Styles for Body */
+body {
+    font-family: Arial, sans-serif; /* Font family for all pages */
+    font-size: 16px; /* Font size for all pages */
+}
+
+/* Header Styles */
+header {
+    background-color: #F0F8FF; /* Light blue background for the header */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #333; /* Dark color for the header text */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #333; /* Dark background for the navigation bar */
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none; /* Remove default list style */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block; /* Display list items horizontally */
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #FFF; /* White text for links */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold;
+}
+
+/* Main Content Styles */
+main {
+    background-color: #F5FFFA; /* Mint background for the main content */
+    font-size: 1.1em; /* Slightly larger font size for main text */
+    padding: 20px;
+    line-height: 1.6;
+}
+
+main img {
+    margin: 10px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333; /* Dark background for footer */
+    color: #FFF; /* White text for footer */
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #FF6347; /* Tomato color for footer links */
+    text-decoration: none;
+}
+
+/* List Item Styles */
+li {
+    display: inline-block; /* List items inline for navigation */
+    width: auto; /* Width of list items set to auto */
+    margin: 10px;
+}
+
+/* Paragraph Styles */
+p {
+    line-height: 1.8; /* Increase line height for better readability */
+}
+
+/* Image Styling for Header */
+header img {
+    width: 100%;
+    max-width: 200px; /* Limit max width to 200px for the header image */
+    height: auto;
+}
+
+/* Styles for Links */
+a:hover {
+    color: #FF6347; /* Change link color to tomato when hovered */
+}
